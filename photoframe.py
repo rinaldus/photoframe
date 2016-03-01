@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import os,sys
+sys.path.append("ui")
 from PyQt5.QtGui import QIcon, QMouseEvent
 from PyQt5.QtWidgets import (QAction, QApplication, QCheckBox, QComboBox,
         QDialog, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit,

@@ -14,7 +14,7 @@
    <string>Settings</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../resources.qrc">
+   <iconset resource="resources.qrc">
     <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
   </property>
   <widget class="QLineEdit" name="txtPath">
@@ -119,7 +119,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../resources.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections/>
 </ui>

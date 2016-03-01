@@ -84,7 +84,7 @@ class Window(QDialog):
                 menu.addAction(QAction(QIcon(':icons/unlock.png'),"&Unlock", self, triggered=self.Unlock))
             else:
                 menu.addAction(QAction(QIcon(':icons/lock.png'),"&Lock", self, triggered=self.Lock))
-                
+            menu.addAction(QAction(QIcon(':icons/refresh.png'),"&Refresh", self, triggered=self.Refresh))
             menu.addAction(QAction(QIcon(':icons/settings.png'),"&Settings", self, triggered=settings.show))
             menu.addAction(QAction(QIcon(':icons/menu_quit.png'),"&Quit", self, triggered=QApplication.instance().quit))
             menu.popup(self.mapToGlobal(point))
@@ -103,8 +103,8 @@ class Window(QDialog):
         SettingsSave()
         QApplication.instance().quit()
         
-    def mousePressEvent(self,event):
-        if ((event.buttons() == QtCore.Qt.LeftButton) and (SettingsExist())):
+    def Refresh(self):
+        if (SettingsExist()):
             setPicture(programSettings.value("directory"))
             
     def resizeEvent(self,event):

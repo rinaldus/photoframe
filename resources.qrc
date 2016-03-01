@@ -1,9 +1,10 @@
-<!DOCTYPE RCC><RCC version="1.0">
-<qresource prefix="/">
-   <file>icons/dummy.png</file>
-   <file>icons/menu_quit.png</file>
-   <file>icons/settings.png</file>
-   <file>icons/lock.png</file>
-   <file>icons/unlock.png</file>
-</qresource>
+<RCC>
+  <qresource prefix="/">
+    <file>icons/refresh.png</file>
+    <file>icons/dummy.png</file>
+    <file>icons/menu_quit.png</file>
+    <file>icons/settings.png</file>
+    <file>icons/lock.png</file>
+    <file>icons/unlock.png</file>
+  </qresource>
 </RCC>

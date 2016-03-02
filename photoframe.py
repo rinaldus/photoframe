@@ -115,13 +115,6 @@ class Window(QDialog):
     def moveEvent(self,event):
         programSettings.setValue("PosX",window.x())
         programSettings.setValue("PosY",window.y())
-        if (window.x() > 1920 or window.y() > 1000):
-            PosX = 1700
-            PosY = 1000
-            window.move(PosX,PosY)
-        if (window.x() < 0):
-            PosX = 0
-            window.move(PosX,window.y())
             
     def start(self):
         self.timer.setInterval(settings.ui.spinUpdateInterval.value()*1000*60)

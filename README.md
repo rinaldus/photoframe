@@ -1,6 +1,6 @@
 ## About
 
-This is Light weight desktop widget, that shows random picture from given directory. It's similar to the same plasmoid from KDE 4.x. I very liked it and was very upset when KDE 4 became obsolete and there's no alternative plasmoid in KDE 5. That's why I decided to write it myself. It was written in Python 3 and PyQt 5 and it's compatible with all known desktop environments.
+This is light weight desktop widget, that shows random picture from given directory. It's similar to the same plasmoid from KDE 4.x. I very liked it and was very upset when KDE 4 became obsolete and there's no alternative plasmoid in KDE 5. That's why I decided to write it myself. It was written in Python 3 and PyQt 5 and it's compatible with all known desktop environments.
 
 ## Screenshots
 ![Main window in MATE](https://raw.github.com/rinaldus/photoframe/master/screenshots/screen1.jpg)

@@ -61,7 +61,7 @@ class Window(QDialog):
         
         self.ui = Ui_PhotoFrame()
         self.ui.setupUi(self)
-        self.setWindowFlags(MainWindowType | Qt.WindowStaysOnBottomHint | Qt.FramelessWindowHint)
+        self.setWindowFlags(MainWindowType | Qt.FramelessWindowHint | Qt.WindowStaysOnBottomHint)
         self.locked = True
         self.resize(SizeX, SizeY)
         self.move(PosX,PosY)

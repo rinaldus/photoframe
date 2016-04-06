@@ -61,7 +61,7 @@ class Window(QDialog):
         
         self.ui = Ui_PhotoFrame()
         self.ui.setupUi(self)
-        self.setWindowFlags(MainWindowType | Qt.FramelessWindowHint | Qt.WindowStaysOnBottomHint)
+        self.setWindowFlags(MainWindowType | Qt.FramelessWindowHint)
         self.locked = True
         self.resize(SizeX, SizeY)
         self.move(PosX,PosY)
@@ -95,7 +95,7 @@ class Window(QDialog):
         window.show()
         
     def Lock(self):
-        window.setWindowFlags(MainWindowType | Qt.FramelessWindowHint | Qt.WindowStaysOnBottomHint)
+        window.setWindowFlags(MainWindowType | Qt.FramelessWindowHint)
         self.locked = True
         window.show()
         

@@ -23,5 +23,11 @@ After program start, you have to set directory with many pictures or photos in "
 * Click on picture to choose another random picture immediately. You can also set update interval for automatic change.
 
 ## Changelog
+
+### Version 1.01 (release date: 05.07.16)
+* New Refresh context menu option instead of left mouse click on picture
+* Code cleaning
+* Several bug fixes
+
 ### Version 1.0 (release date: 29.02.16)
 * Initial version

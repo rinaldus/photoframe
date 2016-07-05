@@ -113,6 +113,10 @@ class Window(QDialog):
         
         
     def moveEvent(self,event):
+        if (self.locked):
+        # The following hack is for KWin 5.x because it can move even locked windows, even frameless windows. Now if you try to move locked window, it goes back.
+            self.move(int(programSettings.value("PosX")),int(programSettings.value("PosY")))
+            event.ignore()
         programSettings.setValue("PosX",window.x())
         programSettings.setValue("PosY",window.y())
             
